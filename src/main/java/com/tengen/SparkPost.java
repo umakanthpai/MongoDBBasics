@@ -50,7 +50,7 @@ public class SparkPost {
             public Object handle(Request request, Response response) {
                 String fruit = request.queryParams("fruit");
                 if(fruit == null){
-                    return "Please pick your favourite fruit...";
+                    return "Please pick your most favourite fruit...";
                 }
                 else{
                     return  "Your favorite fruit is " + fruit;
